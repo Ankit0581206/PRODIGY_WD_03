@@ -1,0 +1,94 @@
+.game--title {
+    font-size: 4rem;
+    color: rgb(63, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game--restart {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: "Arial",Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-image:url(./images/bg.jpg) ;
+}
+section {
+    text-align: center;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 2px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.sidebar {
+    margin : 0 100px;
+}
+
+.sidebar-left {
+    margin-right: 100px;
+}
+
+.sidebar-right {
+    margin-left: 100px;
+}
+
+.player {
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 38px;
+    font-family: "Arial",Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+}
+
+#text1 {
+    font-size: 43px;
+    color: brown;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#text2 {
+    font-size: 43px;
+    margin-left: 40px;
+    color :rgb(63, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+#text3 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 100px;
+    color: rgb(0, 60, 17);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
